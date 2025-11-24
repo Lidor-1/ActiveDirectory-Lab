@@ -1,6 +1,6 @@
 # Active Directory Home Lab
 
-**Quick TLDR:** Built a small Active Directory lab with **1 Windows Server 2019** and **1 Windows 10 client**, created a domain, managed users and groups, and used an **automated bulk user creation script with PowerShell**.
+**Quick TL;DR:** Built a small Active Directory lab with **1 Windows Server 2019** and **1 Windows 10 client**, created a domain, managed users and groups, and used an **automated bulk user creation script with PowerShell**.
 
 This lab was designed to get hands-on experience with Active Directory, including domain setup, user management, and client authentication.
 
@@ -12,15 +12,17 @@ This lab was designed to get hands-on experience with Active Directory, includin
 - Set up a **Windows 10 VM client** and joined it to the domain
 - Logged in as domain users to test authentication
 
+> **Note:** The PowerShell script used for bulk user creation was sourced from an online tutorial and used for demonstration purposes.
+
 ## Screenshots
 Included in `/screenshots/`:
-- Server setup and Domain Controller
-- Created OUs and groups
-- PowerShell script generating users
-- Client machine joined to the domain and logging in
+
+- `server-ad.png` → Server setup and Domain Controller  
+- `bulk-users.png` → PowerShell script generating users  
+- `client-login.png` → Client machine joined to the domain and logged in  
 
 ## What I Learned
-- How to set up a domain and manage users in Active Directory
-- Organizing users into OUs and groups for easier management
-- Using PowerShell to automate bulk user creation
+- How to set up a domain and manage users in Active Directory  
+- Organizing users into OUs and groups for easier management  
+- Using PowerShell to automate bulk user creation  
 - How a Windows client authenticates to a domain controller
