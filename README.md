@@ -16,13 +16,14 @@ This lab was designed to get hands-on experience with Active Directory, includin
 ## Screenshots
 Included in `/screenshots/`:
 
-- `server-ad.png` → Server setup and Domain Controller  
-- `bulk-users.png` → PowerShell script generating users  
-- `client-login.png` → Client machine joined to the domain and logged in  
+- `server-ad.jpg` → Server setup and Domain Controller  
+- `Active directory - Powershell.jpg` → PowerShell script generating users  
+- `client-login.jpg` → Client machine joined to the domain and logged in  
 
 ## What I Learned
 - How to set up a domain and manage users in Active Directory  
 - Organizing users into OUs and groups for easier management  
 - Using PowerShell to automate bulk user creation  
 - How a Windows client authenticates to a domain controller
+
 
