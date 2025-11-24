@@ -12,7 +12,6 @@ This lab was designed to get hands-on experience with Active Directory, includin
 - Set up a **Windows 10 VM client** and joined it to the domain
 - Logged in as domain users to test authentication
 
-> **Note:** The PowerShell script used for bulk user creation was sourced from an online tutorial and used for demonstration purposes.
 
 ## Screenshots
 Included in `/screenshots/`:
@@ -26,3 +25,4 @@ Included in `/screenshots/`:
 - Organizing users into OUs and groups for easier management  
 - Using PowerShell to automate bulk user creation  
 - How a Windows client authenticates to a domain controller
+
